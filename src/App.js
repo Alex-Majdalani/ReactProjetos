@@ -1,3 +1,4 @@
+import Pesquisa from "./componentes/Pesquisa";
 import Header from "./Header";
 import styled from "styled-components";
 
@@ -15,6 +16,7 @@ function App() {
   return (
     <AppContainer>
       <Header />
+      <Pesquisa />
     </AppContainer>
   );
 }
